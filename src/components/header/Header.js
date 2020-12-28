@@ -1,10 +1,7 @@
-import React from 'react';
-import './header.css';
+import React from 'react'
 
-export function Header(props) {
+export function Header() {
   return (
-    <div className="headerWrapper">
-      <p className="header">{props.counter} birthdays today</p>
-    </div>
+    <h1>Our Tours</h1>
   )
 }
